@@ -10,55 +10,32 @@
 }
 
 /* ELEMENTOS BASE */
+
 body{
     background: var(--preta);
-    font-family: 'Times New Roman','Times New Roman', Times, serif;
-    color:white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-header .container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+header .container{
+
 }
 
-header .logo {
-    margin-left: 5px;
+header .logo{
     color: var(--vermelho);
-    font-family: 'Arial Black', 'Times';
+    font-family:'Arial Black', Times;
     font-size: 40px;
 }
 
 header nav a{
     text-decoration: none;
-    color: #aaa;
+    color: #AAA;
     margin-right: 10px;
 }
-
-header nav a:hover{
-    color: #fff;
-};
 
 /* FILME PRINCIPAL */
 
 .filme-principal{
-    font-size: 16px;
-    background: url('C:/Users/SSP/Documents/workspace/interface_netflix/img/capa-house.png');
-    
-    height: 400px;
-    background-size: cover;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.filme-principal .descricao{
-    margin-bottom: 40px;
-}
-
-.titulo{
-    font-size: 40px;
+    background: url('../img/capa-house.jpeg');
+    width: 900px;
+    height: 300px;    
 }
