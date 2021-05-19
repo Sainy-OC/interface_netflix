@@ -10,17 +10,21 @@
 }
 
 /* ELEMENTOS BASE */
-
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color:white;
 }
 
 header .container{
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header .logo{
+    margin-left: 5px;
     color: var(--vermelho);
     font-family:'Arial Black', Times;
     font-size: 40px;
@@ -32,10 +36,18 @@ header nav a{
     margin-right: 10px;
 }
 
-/* FILME PRINCIPAL */
+header nav a:hover{
+    color: #fff;
+}
 
+/* FILME PRINCIPAL */
 .filme-principal{
-    background: url('../img/capa-house.jpeg');
-    width: 900px;
-    height: 300px;    
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-house.jpeg');
+    
+    height: 400px;    
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
 }
